@@ -1,0 +1,51 @@
+Notas clase de GitHub
+
+Sistemas de control de versiones:
+-Git creado por Linux
+
+Linea de comandos:
+->$ git init --> empezar un repositorio local
+->$ git add (nombre del archivo) --> Agregar archivo al repositorio local
+->$ git commit -m "Comentario del archivo..." --> enviar los últimos cambios del archivo
+->$ git add. --> Actualizar todos los archivos en el repositorio
+->$ git rm --cached (Nombre archivo) --> Regresar el add de un archivo
+->$ git status --> Muestra si hay un cambio que no se ha añadido o que esta todo bien
+->$ git show --> Cambios historicos hechos y quien los hizo
+->$ git log (Archivo) --> Historia entera de un archivo
+->$ git push --> Enviar a un repositorio remoto uno local
+->$ git pull --> Traer un repositorio remoto a uno local
+->$ git rm --cached (Archivo) --> Borrar un archivo de git
+->$ git config --> Configuraciones que tiene Git
+->$ git config --list --> Configuraciones por defecto que tiene el Git
+->$ git config --list --show-origin --> Donde están las configuraciones guardadas
+->$ git config --global user.name "Nombre Apellido" --> Configurar nombre de usuario en Git
+->$ git config --global user.email "correo@hotmail.com" --> Configurar correo de usuario en Git
+->$ git log --stat --> Hace una lista de los bits y cambios de cada uno de los archivos y los commits
+->$ git checkout (código del archvio) (Nombre del archivo) --> Da una visualización del archivo en la versión del código dada
+->$ git checkout master (nombre archivo) --> Retorna a la visualización del último commit
+
+Linea de comandos para Branch:
+
+->$ git reset (código commit) --hard -->Regresa a la versión y elimina todo lo posterior
+->$ git reset (código commit) --soft -->Regresa a la versión
+->$ git reset head -->Elimina lo que se encuentre en staging
+->$ git commit -am --> Solo funciona si ya has hecho un commit a un archivo, cumple la función de hacer add y commit
+->$ git branch (nombre de la rama nueva) --> crear una rama nueva
+->$ git chekout (nombre de la rama) --> cambiar de branch
+->$ git branch --> Muestra el listado de las ramas y la actual
+
+Git/GitHub
+
+->$ git remote add origin master --> 
+
+ls- lista de archivos y carpetas donde estoy en el momento
+cd - carpeta donde estoy
+pwd - ruta de la carpeta donde estoy
+cd .. - retorna la ruta anterior
+mkdir - Crear nueva carpeta
+touch - Crear un archivo vacío
+cat (Archivo) - Mostrar contenido del archivo
+history - Muestra la lista de comandos usados hasta ahora
+!(#de la lista de history) - Ejecuta el comando seleccionado de la lista
+rm (Archivo) - Borrar archivo
+code (Archivo - Invoca Visual code y abre el archivo
