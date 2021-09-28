@@ -36,8 +36,13 @@ Linea de comandos para Branch:
 
 Git/GitHub
 
-->$ git remote add origin master --> 
-
+->$ git remote add origin (URL DE GITHUB) --> Generar la conexión entre el repositorio local y el remoto
+->$ git remote --> Visualizar si el git remote arroja origin
+->$ git remote -v --> Visualizar si el git remote arroja origin en lista
+->$ git push origin master  --> Envía al repositorio remoto la rama master local
+->$ git pull origin master  --> Envía al repositorio local la rama master remoto
+->$ git pull origin master --allow-unrealted-histories --> Envía al repositorio local la rama master remoto
+Lista comandos consola: 
 ls- lista de archivos y carpetas donde estoy en el momento
 cd - carpeta donde estoy
 pwd - ruta de la carpeta donde estoy
