@@ -33,6 +33,19 @@ Linea de comandos para Branch:
 ->$ git branch (nombre de la rama nueva) --> crear una rama nueva
 ->$ git chekout (nombre de la rama) --> cambiar de branch
 ->$ git branch --> Muestra el listado de las ramas y la actual
+->$ git log --all --graph --decorate --oneline --> Muestra en graficas y resumen los commits desglosados
+->$ git branch --> Muestra el listado de las ramas y la actual
+->$ git show-branch --> Muestra el listado de las ramas y la actual desglosado
+->$ git show-branch --all --> Muestra el listado de las ramas y la actual desglosado con detalles
+->$ gitk --> Muestra el listado de las ramas y la actual en un porgama aparte forma visual
+
+Lineas de comando para los tags:
+->$ git tag --> Muestra el listado de los tags
+->$ git show-ref --tangs --> Muestra los commits con su respectivo tag
+->$ git tag -a (Nombre del tag) -m "(mensaje)" (hash del commit) --> Muestra el listado de los tags
+->$ git push origin --tags --> Envía los tags locales a GitHub
+->$ git tag -d (nombre del tag) --> Borrar tag del repositorio local
+->$ git push origin :refs/tags/(nombre del tag) --> Borrar el tag del repositorio remoto
 
 Git/GitHub
 
@@ -41,7 +54,8 @@ Git/GitHub
 ->$ git remote -v --> Visualizar si el git remote arroja origin en lista
 ->$ git push origin master  --> Envía al repositorio remoto la rama master local
 ->$ git pull origin master  --> Envía al repositorio local la rama master remoto
-->$ git pull origin master --allow-unrealted-histories --> Envía al repositorio local la rama master remoto
+->$ git pull origin master --allow-unrealted-histories --> Para solucionar de hacer un merge entre los repositorios
+
 Lista comandos consola: 
 ls- lista de archivos y carpetas donde estoy en el momento
 cd - carpeta donde estoy
